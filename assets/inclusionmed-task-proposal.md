@@ -63,4 +63,6 @@ LLM-generated annotations must not serve as reference answers or scoring criteri
 - Admission / revision / deferral decision and rationale:
 - Credits, maintenance plan and proposed release version:
 
-Public submissions are not open yet. Existing collaborators can share this draft with their InclusionMed project contact.
+Use repository issues to discuss a public proposal: https://github.com/knight-flash/InclusionMed/issues
+The full benchmark admission and release process remains in development.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for participation and review guidance.

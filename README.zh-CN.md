@@ -1,116 +1,125 @@
-# InclusionMed
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/figures/InclusionMed-confluence-reverse.png">
+    <img src="assets/figures/InclusionMed-confluence.png" alt="InclusionMed" width="567">
+  </picture>
+</p>
 
-**立足真实医疗工作，探索包容、有效的医疗智能。**
+<p align="center">
+  <strong>立足真实医疗工作，探索包容、有效的医疗智能。</strong>
+</p>
 
-InclusionMed 是一个正在构建社区共建评测框架的研究项目。我们希望将患者、专业人员和医疗服务的实际需求，转化为结果可以检查、过程可以复现的评测任务。
+<p align="center">
+  <a href="https://testmiodemo.renderoffice-pre.antgroup-inc.cn/"><img src="assets/figures/website-badge.svg" alt="项目网站（预览）" height="30"></a>&nbsp;
+  <a href="CONTRIBUTING.zh-CN.md"><img src="assets/figures/contributing-badge.svg" alt="共建指南" height="30"></a>
+</p>
 
-[为什么做](#为什么做-inclusionmed) · [任务分类](#任务分类) · [评测方式](#评测应该怎样开展) · [参与共建](#参与共建)
+<p align="center">
+  <a href="README.md">English</a> · 中文
+</p>
 
-## 邀请参与共建
+**InclusionMed** 是一个正在构建社区共建医疗 AI 评测框架的研究项目。我们将患者、医疗专业人员和医疗服务的实际需求，转化为结果可以检查、过程可以复现的评测任务。
 
-帮助我们识别值得评测的医疗工作：提出一个实际任务、推荐现有基准，或提供医学、技术、语言和本地情境方面的专业经验。定义一个有价值的任务，不一定需要编写代码。
+完整的交互展示请访问 **[项目网站](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/)**。本仓库集中提供项目介绍、共建指南、任务提案模板和评测记录清单。
 
-[了解参与方式 →](#参与共建)
+## 📣 邀请参与共建
+
+帮助我们识别值得评测的医疗工作：提出一个实际任务、推荐现有基准，或提供医学、工程、语言与本地情境方面的专业经验。**提出一个有价值的任务，不一定需要编写代码。**
+
+请阅读 **[CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)**，了解参与流程、提案要求和评审原则。可以先填写 [任务 / Benchmark 提案模板](assets/inclusionmed-task-proposal.md)，也可以在 [仓库 Issues](https://github.com/knight-flash/InclusionMed/issues) 中讨论想法或提出改进建议。
 
 ## 为什么做 InclusionMed？
 
-医疗工作涉及就医导航、信息理解、治疗规划、服务协调、随访、研究和管理等多种活动。
+医疗工作并不只是回答医学问题，还包括就医导航、信息理解、治疗规划、服务协调、随访，以及研究和行政支持。不同的人、语言和医疗环境，对这些工作有不同的需求。
 
-这些活动服务于不同的人群、语言和医疗环境。评测应当讲清楚：**任务代表谁的需求、衡量什么工作、怎样才算取得了有用的结果**。
+有价值的评测应说明：**任务代表谁的需求、衡量哪项工作，以及什么结果才算成功。** InclusionMed 希望将这些证据组织起来，让能力、局限和缺口更容易理解。
 
-InclusionMed 希望将这些证据组织起来，让模型的能力、局限和覆盖缺口更容易理解。
-
-## Inclusion × Effectiveness
-
-| 视角 | 核心问题 |
+| 观察视角 | 我们关注的问题 |
 | --- | --- |
-| **Inclusion／包容性** | 评测覆盖了哪些人群需求、语言和医疗环境？ |
-| **Effectiveness／有效性** | 系统能够多好地完成有实际价值的医疗工作？ |
+| **Inclusion（包容性）** | 评测代表了哪些人、语言和医疗环境的需求？ |
+| **Effectiveness（有效性）** | 系统完成实际医疗工作的效果如何？ |
 
-两个视角相互补充，用于理解任务和结果，目前并不构成已发布的分数汇总公式。
+两者是理解任务与结果的互补视角，并非已经发布的总分计算公式。更多背景见网站 [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission)。
 
-## 任务分类
+### 医疗任务地图
 
-我们从三个维度组织医疗工作。一个任务可以涉及多个角色或工作领域，标签应当对应实际被评测的工作。
+任务通过 **服务对象 × 医疗工作领域 × 能力** 三个维度描述。同一任务可以涉及多个角色或工作领域，分类应反映实际评测的工作。
 
-### 服务人群
-
-| 角色 | 工作示例 |
+| 维度 | 分类 |
 | --- | --- |
-| 患者与家属 | 理解就医选择、准备问题、寻找适当服务 |
-| 医疗专业人员 | 查阅证据、准备记录、辅助临床工作流程 |
-| 服务与行政人员 | 协调医疗服务、安排预约、处理行政流程 |
+| **服务对象** | 患者与家属；医疗专业人员；服务与行政人员 |
+| **医疗工作领域** | 就医可及性；临床评估与诊断；照护规划；照护实施与协调；随访与监测；研究与教育；医疗行政管理 |
+| **能力标签** | 医学知识；沟通；工作成果生成 |
 
-### 七个医疗工作领域
+<details>
+<summary><strong>展开查看七类医疗工作</strong></summary>
 
-- 就医与服务获取
-- 临床评估与诊断
-- 医疗照护规划
-- 医疗实施与协调
-- 随访与监测
-- 研究与教育
-- 医疗行政管理
-
-### 能力标签
-
-**医学知识 · 沟通 · 工作产出生成**
-
-例如，就医导航任务可以归入“患者与家属—就医与服务获取”，并标注“沟通”能力。这是分类示例，并非已发布的基准或评测结果。
-
-## 评测应该怎样开展？
-
-一个任务提案应说明真实需求、可用输入、预期输出、医学依据，以及判断结果是否有用的标准。
-
-拟议的审核原则包括：
-
-1. **相关性：** 衡量能够回应真实医疗需求的工作。
-2. **可信性：** 参考答案与评分标准有医学或专业依据，并接受合格人员审核。
-3. **可用性：** 材料具有清晰的许可和访问条件，可以实际用于评测。
-4. **可复现性：** 记录任务版本、模型、提示词、工具、配置与评分过程，方便独立检查。
-5. **互补性：** 说明任务新增了什么证据，以及与现有评测的重叠。
-6. **关注代表性缺口：** 识别缺少覆盖的语言、人群、地区与资源环境。
-
-结果应保留原始指标、条件与局限。缺失结果不等于零，不同基准的分数需要明确的方法才能汇总。
-
-[下载评测记录清单](assets/inclusionmed-evaluation-checklist.md)
-
-## 我们正在构建什么？
-
-| 部分 | 作用 |
+| 工作领域 | 涵盖内容 |
 | --- | --- |
-| **Index** | 提供模型表现的总体视图，并支持查看评测证据 |
-| **Atlas** | 按医疗工作组织基准、任务覆盖与任务级结果 |
-| **Methodology** | 说明收录、分类、评测和报告的原则 |
-| **社区资源** | 提供任务提案与证据审核所需的模板和指南 |
+| 就医可及性 | 就医导航、预约、转诊，以及经济或服务获取障碍 |
+| 临床评估与诊断 | 症状与病史、检查、风险评估和诊断 |
+| 照护规划 | 治疗、预防、健康管理的方案与计划 |
+| 照护实施与协调 | 临床记录、交接、计划执行及照护协调 |
+| 随访与监测 | 病情变化、治疗反应、安全性、依从性与持续支持 |
+| 研究与教育 | 研究设计、证据综合、分析、研究成果与教学 |
+| 医疗行政管理 | 保险、授权、支付、排期、资源及组织质量管理 |
 
-这些部分属于 InclusionMed 的整体项目。本页提供项目介绍和参与起点。
+</details>
 
-## 参与共建
+例如，就医导航任务可以服务患者与家属，归入“就医可及性”，并涉及“沟通”能力。这是分类示例，并不是已经发布的 Benchmark。
 
-可以从以下三种方式开始：
+### 研究方向
 
-- **提出医疗任务：** 描述谁需要帮助、处于什么环境、有哪些输入，以及什么结果有实际价值。
-- **推荐现有基准：** 提供评测、数据集或工具，同时说明文档、许可和对任务分类的补充。
-- **审核评测证据：** 贡献医学知识、评测工程、复现检查、语言经验或本地情境理解。
+网站呈现了以下正在推进的方向。它们属于研究进展，不是已发布、可直接运行的基准目录。
 
-拟议的流程是：**提出任务 → 补充基本信息 → 审核并复现 → 修订与发布**。
+| 方向 | 关注点 | 当前阶段 |
+| --- | --- | --- |
+| Clinical Live Knowledge Bench | 随医学证据变化而更新的医学知识 | 规划中 |
+| Single-response health conversations | 单次回复中的健康沟通 | 开发中 |
+| Multi-Turn Bench | 多轮对话中的沟通 | 提议方向 |
+| EHR Agentic Bench | 电子健康记录工作流程中的任务 | 开发中 |
+| RSI AutoResearch Bench | 研究工作及其成果 | 开发中 |
 
-可以先使用[任务／基准提案模板](assets/inclusionmed-task-proposal.md)。不能独立完成的部分，可以与医学和技术伙伴共同补充。
+### 评测应该怎样开展
 
-目前尚未开放公开提交渠道。现有协作者可以将准备好的提案交给 InclusionMed 项目联系人。
+任务应具有 **相关性、可信性、可用性、可复现性和互补性**，并关注 **代表性缺口**。医学参考与评分标准需要具备资质的人员审核；LLM 生成的标注不能作为参考标准。
 
-## 当前进展
+每次评测应记录任务与数据版本、模型与配置、运行条件、评分与审核、结果与不确定性，以及复现与贡献署名。相关材料见 [评测记录清单](assets/inclusionmed-evaluation-checklist.md) 和网站 [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology)。
 
-评测框架、审核流程与参与材料仍在建设中。现有网站展示了可交互的 Index 与 Atlas。
+结果应保留原始指标、评测条件和局限。缺失结果不等于零分；不同基准的结果需要经过明确的方法约定才能合并。
 
-Index 分数和 Atlas 示例视图使用虚构数据。Atlas 的公开参考视图保留外部已报告结果及来源链接；这些结果不代表 InclusionMed 自行评测或准入结论。
+## 浏览 InclusionMed
 
-经过 InclusionMed 审核的结果、最终汇总方法、正式公开提交渠道，以及确认后的贡献者署名仍需建立。
+| 网站页面 | 可以了解什么 |
+| --- | --- |
+| [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission) | 为什么从包容性与有效性理解医疗智能 |
+| [Index](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/observatory) | 模型表现与比较的整体视图 |
+| [Atlas](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/atlas) | 按医疗工作组织的基准、覆盖与结果 |
+| [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology) | 拟议的准入、分类、评测和报告原则 |
+| [Contribute](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/contribute) | 如何提供医疗任务、基准和专业经验 |
+| [Resources](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/resources) | 项目材料与参考资源 |
+| [About](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/about) | 项目目的、研究背景和当前阶段 |
+
+## 项目状态
+
+链接的网站目前是 **预览版**。框架、评审流程和参与材料仍在开发中。
+
+Index 分数与 Atlas 示例视图使用虚构数据。Atlas 的独立公开参考视图保留来源报告的结果与链接；这些结果不是 InclusionMed 自行评测或作出的准入决定。经过 InclusionMed 审核的结果、最终聚合方法和确认后的贡献者署名仍有待建立。
+
+仓库 Issues 用于交流想法和反馈文档。完整的 Benchmark 准入与发布流程仍在完善，提交提案并不代表已经被接纳。
+
+## 🤝 一起参与
+
+我们欢迎具备 **医学专业经验**、**评测与工程经验**，以及 **语言或本地情境知识** 的参与者。这些视角共同帮助我们定义有意义的任务、审核证据，并使评测可以复现。
+
+**[阅读共建指南 →](CONTRIBUTING.zh-CN.md)**
 
 ## 资源
 
-- [任务／基准提案模板](assets/inclusionmed-task-proposal.md)
+- [共建指南](CONTRIBUTING.zh-CN.md)
+- [任务 / Benchmark 提案模板](assets/inclusionmed-task-proposal.md)
 - [评测记录清单](assets/inclusionmed-evaluation-checklist.md)
-- [English version](README.md)
+- [英文介绍](README.md)
+- [许可证](LICENSE)
 
-本页的信息结构参考 [OpenRSI Index README](https://github.com/OpenRSI-Foundation/OpenRSI-Index/blob/main/README.md)。医疗任务分类、审核原则与贡献材料来自 InclusionMed 项目。
+README 的展示形式参考 [OpenRSI Index](https://github.com/OpenRSI-Foundation/OpenRSI-Index)。医疗任务分类、拟议评测原则和参与材料来自 InclusionMed 项目。
