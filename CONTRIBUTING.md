@@ -7,7 +7,7 @@ Help evaluate AI against real healthcare work. You can bring a task, recommend a
 ## 1. Choose a way to contribute
 
 | Contribution | A useful starting point |
-| --- | --- |
+| :--- | :--- |
 | **Healthcare task** | Who needs help, the care setting, the work to be completed and what a useful outcome means |
 | **Existing benchmark** | Source links, task description, evaluation method, licences and the evidence it adds |
 | **Review or expertise** | Medical review, local context, language coverage, evaluation engineering or independent reproduction |
@@ -61,7 +61,7 @@ The proposed process is **bring a task → share the essentials → review and r
 Review should consider:
 
 | Principle | What should be clear |
-| --- | --- |
+| :--- | :--- |
 | **Relevant** | The healthcare need, intended user, actual work and useful outcome |
 | **Credible** | Medical or professional references, qualified human review, scoring criteria and critical errors |
 | **Available** | Usable materials, clear licences and access or redistribution conditions |
