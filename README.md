@@ -34,7 +34,7 @@ Explore the interactive project on our **[website](https://testmiodemo.renderoff
 
 Help us identify healthcare work that AI should be evaluated against. Bring a practical task, recommend an existing benchmark, or contribute medical, engineering, language or local-context expertise. **You do not need to write code to propose a useful task.**
 
-Read **[CONTRIBUTING.md](CONTRIBUTING.md)** for the participation process, proposal requirements and review principles. Start with the [task / benchmark proposal template](assets/inclusionmed-task-proposal.md); use [repository issues](https://github.com/knight-flash/InclusionMed/issues) to discuss an idea or suggest an improvement.
+Read **[CONTRIBUTING.md](CONTRIBUTING.md)** for submission, review, revisions and inclusion. All three contribution types start in a [Discussion](https://github.com/knight-flash/InclusionMed/discussions); task and benchmark proposals can use the [proposal template](assets/docs/inclusionmed-task-proposal.md). The [data and code baseline](assets/docs/task-format.md) covers MCQ (multiple-choice questions), QA (open-ended answers) and Agent tasks.
 
 ## 💥 Why InclusionMed?
 
@@ -92,7 +92,7 @@ The website outlines the following work in progress. These are research directio
 
 Tasks should be **relevant, credible, available, reproducible and complementary**, while addressing **representation gaps**. Medical references and scoring criteria require qualified human review. LLM-generated annotations must not serve as the reference standard.
 
-Each evaluation should record the task and data version, model and setup, run conditions, scoring and review, results and uncertainty, and reproduction and credit. See the [evaluation-record checklist](assets/inclusionmed-evaluation-checklist.md) and website [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology).
+Each evaluation should record the task and data version, model and setup, run conditions, scoring and review, results and uncertainty, and reproduction and credit. See the [evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md) and website [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology).
 
 Results should retain their original metrics, conditions and limitations. Missing results are not zero; combining different benchmarks requires an agreed method.
 
@@ -114,13 +114,13 @@ The linked website is a **preview**. The framework, review process and participa
 
 Index scores and the Atlas illustrative view use fictional data. The separate Atlas public-reference view preserves reported results and source links; these are not InclusionMed evaluations or admission decisions. Reviewed InclusionMed results, a final aggregation method and confirmed contributor credits remain to be established.
 
-Repository issues provide a place for ideas and documentation feedback. The full benchmark admission and release process is still being developed; sharing a proposal does not imply acceptance.
+Discussions hold proposals, review and inclusion decisions. The contribution guide sets out the process and review targets; each accepted task and result requires a recorded decision.
 
 ## 📚 Resources
 
 - [Contribution guide](CONTRIBUTING.md)
-- [Task / benchmark proposal template](assets/inclusionmed-task-proposal.md)
-- [Evaluation-record checklist](assets/inclusionmed-evaluation-checklist.md)
+- [Task / benchmark proposal template](assets/docs/inclusionmed-task-proposal.md)
+- [Evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md)
 - [Chinese overview](README.zh-CN.md)
 - [License](LICENSE)
 

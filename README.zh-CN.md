@@ -34,7 +34,7 @@
 
 帮助我们识别值得评测的医疗工作：提出一个实际任务、推荐现有基准，或提供医学、工程、语言与本地情境方面的专业经验。**提出一个有价值的任务，不一定需要编写代码。**
 
-请阅读 **[CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)**，了解参与流程、提案要求和评审原则。可以先填写 [任务 / Benchmark 提案模板](assets/inclusionmed-task-proposal.md)，也可以在 [仓库 Issues](https://github.com/knight-flash/InclusionMed/issues) 中讨论想法或提出改进建议。
+请阅读 **[CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)**，了解提交、审核、返修与收录流程。三种参与方式均通过 [Discussion](https://github.com/knight-flash/InclusionMed/discussions) 开始，任务与基准提案可按 [提案模板](assets/docs/inclusionmed-task-proposal.md) 组织正文。[数据与代码基准](assets/docs/task-format.zh-CN.md) 覆盖 MCQ（选择题）、QA（开放式回答）和 Agent 任务。
 
 ## 💥 为什么做 InclusionMed？
 
@@ -92,7 +92,7 @@
 
 任务应具有 **相关性、可信性、可用性、可复现性和互补性**，并关注 **代表性缺口**。医学参考与评分标准需要具备资质的人员审核；LLM 生成的标注不能作为参考标准。
 
-每次评测应记录任务与数据版本、模型与配置、运行条件、评分与审核、结果与不确定性，以及复现与贡献署名。相关材料见 [评测记录清单](assets/inclusionmed-evaluation-checklist.md) 和网站 [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology)。
+每次评测应记录任务与数据版本、模型与配置、运行条件、评分与审核、结果与不确定性，以及复现与贡献署名。相关材料见 [评测记录清单](assets/docs/inclusionmed-evaluation-checklist.md) 和网站 [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology)。
 
 结果应保留原始指标、评测条件和局限。缺失结果不等于零分；不同基准的结果需要经过明确的方法约定才能合并。
 
@@ -114,13 +114,13 @@
 
 Index 分数与 Atlas 示例视图使用虚构数据。Atlas 的独立公开参考视图保留来源报告的结果与链接；这些结果不是 InclusionMed 自行评测或作出的准入决定。经过 InclusionMed 审核的结果、最终聚合方法和确认后的贡献者署名仍有待建立。
 
-仓库 Issues 用于交流想法和反馈文档。完整的 Benchmark 准入与发布流程仍在完善，提交提案并不代表已经被接纳。
+Discussions 记录提案、审核和收录决定。贡献指南说明流程与审核目标；每项任务和结果的接纳均需记录结论。
 
 ## 📚 资源
 
 - [共建指南](CONTRIBUTING.zh-CN.md)
-- [任务 / Benchmark 提案模板](assets/inclusionmed-task-proposal.md)
-- [评测记录清单](assets/inclusionmed-evaluation-checklist.md)
+- [任务 / Benchmark 提案模板](assets/docs/inclusionmed-task-proposal.md)
+- [评测记录清单](assets/docs/inclusionmed-evaluation-checklist.md)
 - [英文介绍](README.md)
 - [许可证](LICENSE)
 
