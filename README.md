@@ -1,9 +1,4 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/figures/InclusionMed-confluence-reverse.png">
-    <img src="assets/figures/InclusionMed-confluence.png" alt="InclusionMed" width="567">
-  </picture>
-</p>
+<h1 align="center">InclusionMed</h1>
 
 <p align="center">
   <strong>Inclusive medical intelligence,</strong><br>

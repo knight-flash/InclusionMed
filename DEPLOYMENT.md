@@ -1,58 +1,42 @@
-# 在 knight-flash/InclusionMed 发布项目主页
+# InclusionMed GitHub Pages 发布
 
+网站：https://knight-flash.github.io/InclusionMed/
 仓库：https://github.com/knight-flash/InclusionMed
 
-启用 GitHub Pages 并发布成功后，默认项目主页地址为：
+## 当前发布方式
 
-**https://knight-flash.github.io/InclusionMed/**
+使用 `main` 分支根目录的 `index.html` 发布静态网站。2026-10-16 检查时，线上页面与当时 `main/index.html` 完全一致，最近一次 Pages 部署成功。
 
-中文入口：**https://knight-flash.github.io/InclusionMed/index.zh-CN.html**
+仓库首页由 `README.md` 展示，Pages 网站由 `index.html` 展示，两者独立。本次合入新版网站 HTML，并撤下网页和中英文 README 中的旧 Logo；README 正文、共建指南和其他项目材料保留最新 main 内容。
 
-这两个地址是预期发布地址，当前尚未启用发布。仓库里的 README 是 GitHub 上直接阅读的项目介绍；`index.html` 是网站首页。页面已生成，发布不需要安装工具或执行构建。
+## 更新页面
 
-## 第一步：上传文件
+1. 将新的完整离线 HTML 命名为 `index.html`。本次内容来自 `index(3).html`，页面保留原有功能，仅将页眉和页脚 Logo 替换为纯文字 InclusionMed。
+2. 将它上传到仓库 `main` 分支的根目录，替换原有 `index.html`。不要上传 ZIP 本身，也不要多套一层目录。
+3. 保留根目录的空文件 `.nojekyll`，避免 Jekyll 转换静态内容。
+4. 提交后打开仓库 Actions，等待 `pages build and deployment` 成功。
+5. 打开网站并强制刷新，确认显示新的 InclusionMed Index 界面。
 
-1. 用 **knight-flash** 账号登录 GitHub，打开仓库。
-2. 点击 **Add file → Upload files**。
-3. 解压发布包，打开解压后的文件夹，将里面的文件和 `assets` 文件夹一起拖到上传区域。不要上传 ZIP 本身，也不要把整个外层文件夹作为一级目录上传。
-4. 确认 `index.html`、`index.zh-CN.html`、`README.md` 和 `assets/` 都位于仓库根目录。原有 `LICENSE` 保留即可，上传包没有修改它。
-5. 在提交说明中填写 `Add InclusionMed project homepage`，提交到 `main`。
+已有 Pages 配置无需重复修改。只有发布源被改动时，才需要进入 Settings → Pages，选择 `Deploy from a branch`、`main`、`/(root)` 并保存。
 
-`.nojekyll` 是隐藏文件，用于跳过 Jekyll 处理。如果文件选择器未显示它，核心 HTML、CSS 和材料仍可先上传；后续可再通过新建文件添加这个空文件。
+## 页面路由
 
-## 第二步：启用 Pages
+本 HTML 已内置 CSS、JavaScript 和 Hash 路由，不需要 npm 构建，也不需要服务器重写规则。内部页面地址示例：
 
-打开 https://github.com/knight-flash/InclusionMed/settings/pages
+- 首页：https://knight-flash.github.io/InclusionMed/
+- Mission：https://knight-flash.github.io/InclusionMed/#/mission
+- Atlas：https://knight-flash.github.io/InclusionMed/#/atlas
+- Methodology：https://knight-flash.github.io/InclusionMed/#/methodology
+- Contribute：https://knight-flash.github.io/InclusionMed/#/contribute
 
-在 **Build and deployment** 下选择：
+直接使用 `/InclusionMed/atlas` 等路径不适用于此离线版本，请保留 `#/` 路由形式。
 
-- **Source**：`Deploy from a branch`
-- **Branch**：`main`
-- **Folder**：`/(root)`
+## 以后更新
 
-点击 **Save**。发布进度可以在 **Actions** 中查看；完成后，Pages 设置页会显示实际网站地址。
+替换根目录 `index.html` 并提交到 `main`，GitHub Pages 会自动重新发布。README 的修改不代替 HTML 网站的更新。
 
-[GitHub Pages 官方配置说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+## 本次完整上传包
 
-## 第三步：检查发布结果
+基于 GitHub main 提交 `779adb599d5025976d60e7358c0bf70d1e475560` 生成。解压后打开文件夹，选择里面的全部文件和 assets 文件夹，上传到仓库 main 根目录并替换同名文件；不要上传 ZIP 或外层文件夹。
 
-1. 打开 Pages 显示的网站地址，确认默认英文页面样式正常。
-2. 点击右上角 **中文**，确认语言切换正常。
-3. 在 Contribute 和 Resources 部分检查任务提案模板、评测记录清单是否可下载。
-4. 可在仓库首页右侧 **About** 设置中填入网站地址，方便访客找到。
-
-以后修改文件并提交到 `main`，Pages 会按配置重新发布。
-
-## 项目主页与个人网站的区别
-
-这个仓库发布的是你账号下的 **InclusionMed 项目主页**，默认路径包含 `/InclusionMed/`。
-
-如果以后希望做 `https://knight-flash.github.io/` 这样的个人网站根首页，需要使用名为 **knight-flash.github.io** 的仓库。在个人首页加入项目卡片或链接，就能接到这里，不必移动这个项目。
-
-[GitHub Pages 网站类型与地址说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
-
-## 内容维护
-
-英文内容稿在 `README.md`，中文内容稿在 `README.zh-CN.md`。静态网站对应 `index.html` 和 `index.zh-CN.html`；后续改文案时应同步更新。`assets/` 包含样式、图标和两份材料。
-
-正式 InclusionMed 网站地址、公开提交渠道和确认后的人员署名暂未补充。当前介绍说明了研发阶段，区分演示数据与公开参考结果。
+Mac 可按 Command + Shift + . 显示 `.nojekyll` 隐藏文件。如网页上传未包含该空文件，可在仓库中用 Add file → Create new file 新建 `.nojekyll`。
