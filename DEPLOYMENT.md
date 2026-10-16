@@ -40,3 +40,7 @@
 基于 GitHub main 提交 `779adb599d5025976d60e7358c0bf70d1e475560` 生成。解压后打开文件夹，选择里面的全部文件和 assets 文件夹，上传到仓库 main 根目录并替换同名文件；不要上传 ZIP 或外层文件夹。
 
 Mac 可按 Command + Shift + . 显示 `.nojekyll` 隐藏文件。如网页上传未包含该空文件，可在仓库中用 Add file → Create new file 新建 `.nojekyll`。
+
+## 对外链接
+
+README 和共建指南中的 Website 入口统一指向公开的 https://knight-flash.github.io/InclusionMed/ 。内部页面使用 `#/mission`、`#/atlas` 等 Hash 路由；Resources 指向本仓库的 `assets/docs` 材料目录，不再使用内网预览站。

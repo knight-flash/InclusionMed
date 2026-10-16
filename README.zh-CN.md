@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://testmiodemo.renderoffice-pre.antgroup-inc.cn/"><img src="assets/figures/website-badge.svg" alt="项目网站（预览）" height="30"></a>&nbsp;
+  <a href="https://knight-flash.github.io/InclusionMed/"><img src="assets/figures/website-badge.svg" alt="项目网站（GitHub Pages）" height="30"></a>&nbsp;
   <a href="https://github.com/knight-flash/InclusionMed"><img src="assets/figures/github-badge.svg" alt="GitHub 仓库" height="30"></a>&nbsp;
   <a href="CONTRIBUTING.zh-CN.md"><img src="assets/figures/contribution-code-badge.svg" alt="Contribution Code — 共建指南" height="30"></a>
 </p>
@@ -23,7 +23,7 @@
 
 **InclusionMed** 是一个正在构建社区共建医疗 AI 评测框架的研究项目。我们将患者、医疗专业人员和医疗服务的实际需求，转化为结果可以检查、过程可以复现的评测任务。
 
-完整的交互展示请访问 **[项目网站](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/)**。本仓库集中提供项目介绍、共建指南、任务提案模板和评测记录清单。
+完整的交互展示请访问 **[项目网站](https://knight-flash.github.io/InclusionMed/)**。本仓库集中提供项目介绍、共建指南、任务提案模板和评测记录清单。
 
 ## 📣 邀请参与共建
 
@@ -42,7 +42,7 @@
 | **Inclusion（包容性）** | 评测代表了哪些人、语言和医疗环境的需求？ |
 | **Effectiveness（有效性）** | 系统完成实际医疗工作的效果如何？ |
 
-两者是理解任务与结果的互补视角，并非已经发布的总分计算公式。更多背景见网站 [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission)。
+两者是理解任务与结果的互补视角，并非已经发布的总分计算公式。更多背景见网站 [Mission](https://knight-flash.github.io/InclusionMed/#/mission)。
 
 ### 医疗任务地图
 
@@ -87,21 +87,21 @@
 
 任务应具有 **相关性、可信性、可用性、可复现性和互补性**，并关注 **代表性缺口**。医学参考与评分标准需要具备资质的人员审核；LLM 生成的标注不能作为参考标准。
 
-每次评测应记录任务与数据版本、模型与配置、运行条件、评分与审核、结果与不确定性，以及复现与贡献署名。相关材料见 [评测记录清单](assets/docs/inclusionmed-evaluation-checklist.md) 和网站 [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology)。
+每次评测应记录任务与数据版本、模型与配置、运行条件、评分与审核、结果与不确定性，以及复现与贡献署名。相关材料见 [评测记录清单](assets/docs/inclusionmed-evaluation-checklist.md) 和网站 [Methodology](https://knight-flash.github.io/InclusionMed/#/methodology)。
 
 结果应保留原始指标、评测条件和局限。缺失结果不等于零分；不同基准的结果需要经过明确的方法约定才能合并。
 
 ## 🔎 浏览 InclusionMed
 
-| 网站页面 | 可以了解什么 |
+| 页面 / 资源 | 可以了解什么 |
 | :--- | :--- |
-| [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission) | 为什么从包容性与有效性理解医疗智能 |
-| [Index](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/observatory) | 模型表现与比较的整体视图 |
-| [Atlas](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/atlas) | 按医疗工作组织的基准、覆盖与结果 |
-| [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology) | 拟议的准入、分类、评测和报告原则 |
-| [Contribute](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/contribute) | 如何提供医疗任务、基准和专业经验 |
-| [Resources](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/resources) | 项目材料与参考资源 |
-| [About](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/about) | 项目目的、研究背景和当前阶段 |
+| [Mission](https://knight-flash.github.io/InclusionMed/#/mission) | 为什么从包容性与有效性理解医疗智能 |
+| [Index](https://knight-flash.github.io/InclusionMed/#/observatory) | 模型表现与比较的整体视图 |
+| [Atlas](https://knight-flash.github.io/InclusionMed/#/atlas) | 按医疗工作组织的基准、覆盖与结果 |
+| [Methodology](https://knight-flash.github.io/InclusionMed/#/methodology) | 拟议的准入、分类、评测和报告原则 |
+| [Contribute](https://knight-flash.github.io/InclusionMed/#/contribute) | 如何提供医疗任务、基准和专业经验 |
+| [Resources](https://github.com/knight-flash/InclusionMed/tree/main/assets/docs) | 项目材料与参考资源 |
+| [About](https://knight-flash.github.io/InclusionMed/#/about) | 项目目的、研究背景和当前阶段 |
 
 ## 🚧 项目状态
 

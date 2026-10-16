@@ -1,6 +1,6 @@
 # Contributing to InclusionMed
 
-[Project overview](README.md) · [Website](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/) · [中文](CONTRIBUTING.zh-CN.md)
+[Project overview](README.md) · [Website](https://knight-flash.github.io/InclusionMed/) · [中文](CONTRIBUTING.zh-CN.md)
 
 Bring a healthcare task, recommend a benchmark or share expertise. An idea is enough to start; collaborators can help prepare data and code. English and Chinese are both welcome.
 

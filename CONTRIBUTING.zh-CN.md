@@ -1,6 +1,6 @@
 # 参与 InclusionMed 共建
 
-[项目介绍](README.zh-CN.md) · [项目网站](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/) · [English](CONTRIBUTING.md)
+[项目介绍](README.zh-CN.md) · [项目网站](https://knight-flash.github.io/InclusionMed/) · [English](CONTRIBUTING.md)
 
 你可以提出医疗任务、推荐已有基准或提供专业经验。有一个想法就可以开始交流，数据和代码可以与协作者共同补齐。中英文均可。
 

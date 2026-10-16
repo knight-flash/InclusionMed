@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://testmiodemo.renderoffice-pre.antgroup-inc.cn/"><img src="assets/figures/website-badge.svg" alt="Website — preview" height="30"></a>&nbsp;
+  <a href="https://knight-flash.github.io/InclusionMed/"><img src="assets/figures/website-badge.svg" alt="Website — GitHub Pages" height="30"></a>&nbsp;
   <a href="https://github.com/knight-flash/InclusionMed"><img src="assets/figures/github-badge.svg" alt="GitHub repository" height="30"></a>&nbsp;
   <a href="CONTRIBUTING.md"><img src="assets/figures/contribution-code-badge.svg" alt="Contribution Code — contributing guide" height="30"></a>
 </p>
@@ -23,7 +23,7 @@
 
 **InclusionMed** is a research initiative developing community-built evaluation of medical AI. We connect the needs of patients, healthcare professionals and services with tasks whose outcomes can be examined and reproduced.
 
-Explore the interactive project on our **[website](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/)**. This repository brings together the project overview, contribution guide, proposal template and evaluation-record checklist.
+Explore the interactive project on our **[website](https://knight-flash.github.io/InclusionMed/)**. This repository brings together the project overview, contribution guide, proposal template and evaluation-record checklist.
 
 ## 📣 Call for Contributors
 
@@ -42,7 +42,7 @@ A useful evaluation should make clear **who a task represents, what work it meas
 | **Inclusion** | Whose needs, languages and care settings does the evaluation represent? |
 | **Effectiveness** | How well does the system complete useful healthcare work? |
 
-These are complementary perspectives for examining tasks and results, rather than a published formula for combining scores. Read more in our [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission).
+These are complementary perspectives for examining tasks and results, rather than a published formula for combining scores. Read more in our [Mission](https://knight-flash.github.io/InclusionMed/#/mission).
 
 ### Healthcare task map
 
@@ -87,21 +87,21 @@ The website outlines the following work in progress. These are research directio
 
 Tasks should be **relevant, credible, available, reproducible and complementary**, while addressing **representation gaps**. Medical references and scoring criteria require qualified human review. LLM-generated annotations must not serve as the reference standard.
 
-Each evaluation should record the task and data version, model and setup, run conditions, scoring and review, results and uncertainty, and reproduction and credit. See the [evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md) and website [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology).
+Each evaluation should record the task and data version, model and setup, run conditions, scoring and review, results and uncertainty, and reproduction and credit. See the [evaluation-record checklist](assets/docs/inclusionmed-evaluation-checklist.md) and website [Methodology](https://knight-flash.github.io/InclusionMed/#/methodology).
 
 Results should retain their original metrics, conditions and limitations. Missing results are not zero; combining different benchmarks requires an agreed method.
 
 ## 🔎 Explore InclusionMed
 
-| Website page | What you can find |
+| Page / resource | What you can find |
 | :--- | :--- |
-| [Mission](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/mission) | Why we evaluate medical intelligence through inclusion and effectiveness |
-| [Index](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/observatory) | An overall view of model performance and comparisons |
-| [Atlas](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/atlas) | Benchmarks, coverage and results organised by healthcare work |
-| [Methodology](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/methodology) | Proposed admission, classification, evaluation and reporting principles |
-| [Contribute](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/contribute) | Ways to bring healthcare tasks, benchmarks and expertise |
-| [Resources](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/resources) | Project materials and reference resources |
-| [About](https://testmiodemo.renderoffice-pre.antgroup-inc.cn/about) | Project purpose, research context and current stage |
+| [Mission](https://knight-flash.github.io/InclusionMed/#/mission) | Why we evaluate medical intelligence through inclusion and effectiveness |
+| [Index](https://knight-flash.github.io/InclusionMed/#/observatory) | An overall view of model performance and comparisons |
+| [Atlas](https://knight-flash.github.io/InclusionMed/#/atlas) | Benchmarks, coverage and results organised by healthcare work |
+| [Methodology](https://knight-flash.github.io/InclusionMed/#/methodology) | Proposed admission, classification, evaluation and reporting principles |
+| [Contribute](https://knight-flash.github.io/InclusionMed/#/contribute) | Ways to bring healthcare tasks, benchmarks and expertise |
+| [Resources](https://github.com/knight-flash/InclusionMed/tree/main/assets/docs) | Project materials and reference resources |
+| [About](https://knight-flash.github.io/InclusionMed/#/about) | Project purpose, research context and current stage |
 
 ## 🚧 Project status
 
